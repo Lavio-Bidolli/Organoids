@@ -4,7 +4,6 @@
 
 This repository contains the code, results, and documentation for a **phase field model of cellular interfaces**, implemented as part of the *Physics of Complex Systems* course at Politecnico di Torino – Paris Cité.
 
-
 ---
 
 ## 📄 Repository Contents
@@ -12,8 +11,8 @@ This repository contains the code, results, and documentation for a **phase fiel
 | File / Folder | Description |
 |---|---|
 | `A phase field model for cellular interfaces.pdf` | **Full scientific report** — model derivation, numerical methods, results, conclusions |
-| `organoids_simulations.ipynb` | Jupyter notebook with all numerical simulations and ANIMATIONS |
-| `presentation_with_selected_frames/` | **Slide deck** — visual overview of the project and videos of selected simulations|
+| `organoids_simulations.ipynb` | Jupyter notebook with all numerical simulations and animations |
+| `presentation_with_selected_frames/` | **Slide deck** — visual overview of the project and selected simulation videos |
 | `images/` | Figures and output plots from the simulations |
 
 > **Quick overview?** → Open the **slide deck** in `presentation_with_selected_frames/`  
@@ -68,21 +67,15 @@ Volume is tracked at each step via a Riemann sum. The sigmoid mask used for divi
 
 ## 🎬 Simulations
 
-### Cell–Cell Adhesion
+### Cell–Cell Interaction
 
-| Interaction between two cells | 
-|:---:|:---:|
-| ![Two-cells-interaction](presentation_with_selected_frames/GIF/two_cells_noses.gif) | ![Strong adhesion](presentation_with_selected_frames/GIF/two_cells_noses.gif) |
-
-| Weak adhesion (η = 0.003) | Strong adhesion (η = 0.065) |
-|:---:|:---:|
-| ![Weak adhesion](presentation_with_selected_frames/GIF/low-adhesion.gif) | ![Strong adhesion](presentation_with_selected_frames/GIF/low-adhesion.gif) |
+![Two cells interaction](presentation_with_selected_frames/GIF/two_cells_noses.gif)
 
 ### Cell Division
 
-| Surface tension dominates | Adhesion dominates | Enhanced diffusion |
-|:---:|:---:|:---:|
-| ![Surface tension](presentation_with_selected_frames/GIF/high-adhesion.gif) | ![Adhesion](presentation_with_selected_frames/GIF/high-adhesion.gif) | ![Diffusion](presentation_with_selected_frames/GIF/nome_file_5.gif) |
+| Surface tension dominates | Adhesion dominates |
+|:---:|:---:|
+| ![Surface tension dominates](presentation_with_selected_frames/GIF/low-adhesion.gif) | ![Adhesion dominates](presentation_with_selected_frames/GIF/high-adhesion.gif) |
 
 ---
 
