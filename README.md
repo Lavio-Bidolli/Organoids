@@ -66,6 +66,26 @@ Volume is tracked at each step via a Riemann sum. The sigmoid mask used for divi
 
 ---
 
+## 🎬 Simulations
+
+### Cell–Cell Adhesion
+
+| Interaction between two cells | 
+|:---:|:---:|
+| ![Two-cells-interaction](presentation_with_selected_frames/GIF/two_cells_noses.gif) | ![Strong adhesion](presentation_with_selected_frames/GIF/two_cells_noses.gif) |
+
+| Weak adhesion (η = 0.003) | Strong adhesion (η = 0.065) |
+|:---:|:---:|
+| ![Weak adhesion](presentation_with_selected_frames/GIF/low-adhesion.gif) | ![Strong adhesion](presentation_with_selected_frames/GIF/low-adhesion.gif) |
+
+### Cell Division
+
+| Surface tension dominates | Adhesion dominates | Enhanced diffusion |
+|:---:|:---:|:---:|
+| ![Surface tension](presentation_with_selected_frames/GIF/high-adhesion.gif) | ![Adhesion](presentation_with_selected_frames/GIF/high-adhesion.gif) | ![Diffusion](presentation_with_selected_frames/GIF/nome_file_5.gif) |
+
+---
+
 ## ⚙️ The Model at a Glance
 
 The total energy functional for two cells is:
