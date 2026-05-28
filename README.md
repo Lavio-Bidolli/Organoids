@@ -69,13 +69,13 @@ Volume is tracked at each step via a Riemann sum. The sigmoid mask used for divi
 
 ### Cell–Cell Interaction
 
-![Two cells interaction](presentation_with_selected_frames/GIF/two_cells_noses.gif)
+![Two cells interaction](presentation_with_selected_frames/Gif/two_cells_noses.gif)
 
 ### Cell Division
 
 | Surface tension dominates | Adhesion dominates |
 |:---:|:---:|
-| ![Surface tension dominates](presentation_with_selected_frames/GIF/low-adhesion.gif) | ![Adhesion dominates](presentation_with_selected_frames/GIF/high-adhesion.gif) |
+| ![Surface tension dominates](presentation_with_selected_frames/Gif/low-adhesion.gif) | ![Adhesion dominates](presentation_with_selected_frames/Gif/high-adhesion.gif) |
 
 ---
 
