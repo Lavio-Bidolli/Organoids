@@ -33,7 +33,7 @@ The time evolution of `u` is governed by a **PDE derived by minimizing a free-en
 
 ---
 
-## 🔬 Key Results (from the PDF)
+## 🔬 Key Results 
 
 ### 1. Cell–Cell Interaction at Different Adhesion Strengths
 
