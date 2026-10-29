@@ -1,6 +1,6 @@
 # Organoids — Phase Field Modeling of Cellular Interfaces
 
-> A mean-field approach to simulate cell shape, adhesion, and division dynamics
+> A phase field approach to simulate cell shape, adhesion, and division dynamics
 
 This repository contains the code, results, and documentation for a **phase field model of cellular interfaces**, implemented as part of the *Physics of Complex Systems* course at Politecnico di Torino – Paris Cité.
 
